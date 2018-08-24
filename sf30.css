@@ -83,17 +83,17 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 89px;
-    height: 28px;
+    width: 270px;
+    height: 99px;
     background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/Pieces/presses/left_bumper_press.png);
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 586px;
+    width: 935px;
     height: 28px;
-    left: 99px;
-    top: 72px;
+    left: 130px;
+    top: 100px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
