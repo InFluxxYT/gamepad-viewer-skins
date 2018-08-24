@@ -55,10 +55,11 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 1192px;
+    width: 935px;
     height: 81px;
     position: absolute;
-    left: 0px;
+    left: 130px;
+	top: 10px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:261px;
@@ -84,7 +85,7 @@ placement */
 .custom .bumper{
     width: 89px;
     height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/Pieces/presses/left_bumper_press.png);
     opacity: 0;
 }
 .custom .bumpers{
