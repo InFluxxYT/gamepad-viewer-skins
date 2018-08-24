@@ -55,14 +55,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 586px;
-    height: 65px;
+    width: 1192px;
+    height: 81px;
     position: absolute;
     left: 99px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
+    width:261px;
+    height:81px;
     background: url(https://i.imgur.com/csOwSGg.png);
     opacity: 0;
 }
