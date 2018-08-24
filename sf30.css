@@ -61,8 +61,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     left: 0px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:400px;
-    height:90px;
+    width:261px;
+    height:81px;
     background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/Pieces/presses/left_trigger_press.png);
     opacity: 0;
 }
