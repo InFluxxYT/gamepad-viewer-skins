@@ -43,12 +43,12 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://i.imgur.com/7n1R04i.png); 
+    background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/base.png); 
     height: 631px;
     width: 1192px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://i.imgur.com/jWDTt5Q.png);
+    background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/base_disconnect.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -56,14 +56,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
     width: 1192px;
-    height: 81px;
+    height: 631px;
     position: absolute;
-    left: 99px;
+    left: 0px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:261px;
-    height:81px;
-    background: url(https://i.imgur.com/csOwSGg.png);
+    width:1192px;
+    height:631px;
+    background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/Pieces/presses/left_trigger_press.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
