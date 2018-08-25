@@ -132,10 +132,10 @@ placement */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 204px;
-    height: 205px;
-    top: 156px;
-    left: 538px;
+    width: 318px;
+    height: 268px;
+    top: 180px;
+    left: 786px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -149,21 +149,23 @@ placement */
 }
 .custom .a{
     background-position: 0px 0;
-    top: 190px;
-    left: 105px;
+    top: 150px;
+    left: 90px;
 }
 .custom .b{
     background-position: 0px 0;
-    top: 71px;
-    right: 0px;
+    top: 65px;
+    right: -25px;
 }
 .custom .x{
     background-position: 0px 0;
-    top: 71px;
+    top: 65px;
+	right: 200px
 }
 .custom .y{
     background-position: 0px 0;
-    left: 71px;
+    left: 90px;
+	top: -20
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
