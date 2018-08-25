@@ -142,7 +142,7 @@ placement */
     position: absolute;
     width:140px;
     height:140px;
-    background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/Pieces/presses/a_button_press.png);
+    background: url(https://raw.githubusercontent.com/InFluxxYT/gamepad-viewer-skins/testing/sprites/Pieces/presses/button_press.png);
 }
 .custom .button.pressed{
     background-position-y: 140px;
@@ -160,12 +160,12 @@ placement */
 .custom .x{
     background-position: 0px 0;
     top: 65px;
-	right: 200px
+	right: 200px;
 }
 .custom .y{
     background-position: 0px 0;
     left: 90px;
-	top: -20
+	top: -20px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
